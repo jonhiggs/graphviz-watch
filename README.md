@@ -1,6 +1,6 @@
 # graphviz-watch
 
-Watch a [Graphviz](https://graphviz.org/) .dot file, and re-render it as ASCII when it changes.
+Watch a [Graphviz](https://graphviz.org/) .dot file and render it as ASCII as it changes.
 
 Inspired by [dot-to-ascii](https://dot-to-ascii.ggerganov.com/)
 
