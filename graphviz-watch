@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+GRAPH_EASY="${HOME}/perl5/bin/graph-easy"
+FILE=$1
+
+if [[ ! -f ${FILE} ]]; then
+  echo "Error: File ${FILE} does not exist" >&2
+  exit 1
+fi
+
+echo "${FILE}" | entr -ac ${GRAPH_EASY} "${FILE}"
